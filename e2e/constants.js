@@ -1,7 +1,7 @@
 import path from 'path';
 
-export const ANDROID_DEVICE_NAME = process.env.ANDROID_DEVICE_NAME || 'Nexus_5X_API_28';
-export const ANDROID_PLATFORM_VERSION = process.env.ANDROID_PLATFORM_VERSION || '9';
+export const ANDROID_DEVICE_NAME = process.env.ANDROID_DEVICE_NAME || 'Nexus_5X_API_24';
+export const ANDROID_PLATFORM_VERSION = process.env.ANDROID_PLATFORM_VERSION || '7.0';
 export const ANDROID_APPLICATION_PATH = process.env.ANDROID_APPLICATION_PATH || path.resolve(__dirname, '../android/app/build/outputs/apk/release/app-release.apk');
 
 export const DEVICE_TIMEOUT = process.env.DEVICE_TIMEOUT || 90 * 1000;
